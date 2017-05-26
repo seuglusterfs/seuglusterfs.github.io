@@ -3,6 +3,7 @@
 
 [VM及教程](http://10.128.201.9:8181/owncloud/index.php/s/piViJ1MbGz1habM)
 
+[xshell(选用)](http://pan.baidu.com/s/1hsLyCS0)
 # GlusterFS部署实现
 
 ## 一、简要介绍
@@ -11,9 +12,9 @@ Gluster是一个分布式文件系统，具有很高的横向扩展能力。它�
 
 ## 二、实验目标与要求
 
-1）在Vmware9中，使用Fedora-Server-DVD-x86_64-23.iso安装2至4个Fedora虚拟机。
-2）分别在每个节点上部署Fedora。
-3）在Linux系统上实现Native挂载；在Windows7 企业版以上实现NFS挂载。
+1）在Vmware9中，使用Fedora-Server-DVD-x86_64-23.iso安装2至4个Fedora虚拟机。</br>
+2）分别在每个节点上部署Fedora。</br>
+3）在Linux系统上实现Native挂载；在Windows7 企业版以上实现NFS挂载。</br>
 
 ## 三、部署过程
 
@@ -147,6 +148,6 @@ ls -lA /data/brick1/gv0
 ![实验结果图](http://7xilc8.com1.z0.glb.clouddn.com/tmp2.png)
 
 ## 四、扩展研究
-根据[Gluster官方文档](http://gluster.readthedocs.io/en/latest/Administrator%20Guide/Setting%20Up%20Clients/)
-1）在Linux中实现Native挂载。
-2）在Windows 7 企业版中实现NFS挂载。
+根据[Gluster官方文档](http://gluster.readthedocs.io/en/latest/Administrator%20Guide/Setting%20Up%20Clients/)</br>
+1）在Linux中实现Native挂载。</br>
+2）在Windows 7 企业版中实现NFS挂载。</br>
