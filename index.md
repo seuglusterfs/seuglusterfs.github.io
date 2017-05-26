@@ -4,6 +4,7 @@
 [VM及教程](http://10.128.201.9:8181/owncloud/index.php/s/piViJ1MbGz1habM)
 
 [xshell(选用)](http://pan.baidu.com/s/1hsLyCS0)
+
 # GlusterFS部署实现
 
 ## 一、简要介绍
@@ -49,9 +50,9 @@ BOOTPROTO="static"
 ONBOOT="yes"
 ```
 
-C）如果采用克隆方式生成的虚拟机，需要特别进行如下操作：
-1）使用`ifconfig`查看网卡的MAC地址
-2）在`/etc/sysconfig/network-scripts`文件中，修改MAC地址栏内容（HWADDR行）。
+C）如果采用克隆方式生成的虚拟机，需要特别进行如下操作：<br>
+1）使用`ifconfig`查看网卡的MAC地址<br>
+2）在`/etc/sysconfig/network-scripts`文件中，修改MAC地址栏内容（HWADDR行）。<br>
 
 D）通过以下命令重启网络，或重启虚拟机（3选1）：
 ```
@@ -149,6 +150,6 @@ ls -lA /data/brick1/gv0
 
 ## 四、扩展研究
 
-根据[Gluster官方文档](http://gluster.readthedocs.io/en/latest/Administrator%20Guide/Setting%20Up%20Clients/)</br>
+根据[Gluster官方文档](http://gluster.readthedocs.io/en/latest/Administrator%20Guide/Setting%20Up%20Clients/)<br>
 1）在Linux中实现Native挂载。<br>
 2）在Windows 7 企业版中实现NFS挂载。<br>
