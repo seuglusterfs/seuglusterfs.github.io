@@ -90,11 +90,9 @@ service glusterd status
 ### 5.配置可信任池
 A）首先，使用`iptables -F`命令，关闭每个虚拟机的防火墙。
 
-B）在其中一个节点上，使用如下命令，探测其他所有机器：
+B）在其中一个节点(本实验为172.16.77.135)上，使用如下命令，探测其他所有机器：
 ```
 gluster peer probe 172.16.77.136
-gluster peer probe 172.16.77.137
-gluster peer probe 172.16.77.138
 ```
 具体根据所要搭建的节点数量，而不同。
 
@@ -111,6 +109,7 @@ gluster volume start gv0
 ```
 gluster volume info
 ```
+![卷信息结果](http://7xilc8.com1.z0.glb.clouddn.com/tmp3.png)
 
 在每台机器上，运行以下命令：
 ```
