@@ -3,7 +3,6 @@
 
 [VM及教程](http://10.128.201.9:8181/owncloud/index.php/s/piViJ1MbGz1habM)
 
-[xshell(选用)](http://pan.baidu.com/s/1hsLyCS0)
 
 # GlusterFS部署实现
 
